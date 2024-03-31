@@ -20,7 +20,7 @@ def print_edges_weight_sum(edge_weight_list):
     print(f'Suma wag krawedzi: {sum}')
 
 
-with open("graph0.txt", "r") as file:
+with open("graph.txt", "r") as file:
     weight_matrix = list()
     graph = dict()
     graph_with_weights = dict()
