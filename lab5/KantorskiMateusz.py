@@ -107,7 +107,7 @@ def hungarian_algorithm(X, Y):
         print(f'Znalezlismy skojarzenie nasycajace zbior X:= {Tx}')
     else:
         print("Nie ma skojarzenia w grafie.")
-        print(f'Dla S:= {S} i T:= {T} mamy |N(S)| < |S|, czyli {len(T)} < {len(S)}')
+        print(f'Dla S:= {sorted(S)} i T:= {sorted(T)} mamy |N(S)| < |S|, czyli {len(T)} < {len(S)}')
 
 
 def main() -> None:
